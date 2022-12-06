@@ -3,11 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { FeaturesComponent } from './features/features.component';
-import { SigningComponent } from './signing/signing.component';
+import { SignInComponent } from './signIn/signIn.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 
-const routes: Routes = [{path:'Signing',component:SigningComponent},
+const routes: Routes = [{path:'SignIn',component:SignInComponent},
                         {path:'SignUp',component:SignUpComponent},
                         {path:'Home',component:HomeComponent},
                         {path:'About Us',component:AboutUsComponent},
